@@ -72,3 +72,22 @@ let filtrado5=precioProductos.filter(function(precio){
 console.log(filtrado5)
 
 //necesito aplicar el iva del 19% a todos los precios
+let datosMapeados=precioProductos.map(function(precio){
+    return(precio+(precio*0.19))
+})
+console.log(precioProductos)
+console.log(datosMapeados)
+
+//necesito que cada producto tenga un nombre nuevo
+let datosMapeados2=arregloProductos.map(function(producto){
+    return("1/2 botella: "+producto)
+})
+console.log(datosMapeados2)
+
+//RECORRER UN ARREGLO (ABRIR CADA CAJA)
+//forEach
+arregloProductos.forEach(function(producto){
+
+    console.log("nacional el rey de copas")
+
+})
